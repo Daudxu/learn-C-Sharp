@@ -72,6 +72,7 @@ namespace HelloWorldCS
             {
                 string str1 = str + 20.ToString();
                 Console.WriteLine(str1);
+
             }
         }
 
@@ -79,7 +80,6 @@ namespace HelloWorldCS
         {
             return double.TryParse(str, out _);
         }
-
 
     }
 }
