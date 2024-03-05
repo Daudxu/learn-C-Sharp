@@ -5,7 +5,7 @@
 *.user
 *.userosscache
 *.sln.docstates
-*.history
+*.history 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
  
@@ -67,10 +67,10 @@ artifacts/
 *.pidb
 *.svclog
 *.scc
- .history
+ 
 # Chutzpah Test files
 _Chutzpah*
- .history
+ 
 # Visual C++ cache files
 ipch/
 *.aps
