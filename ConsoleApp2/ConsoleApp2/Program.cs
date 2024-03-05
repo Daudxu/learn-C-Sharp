@@ -11,25 +11,37 @@ namespace HelloWorldCS
         public static int _number = 0;
         static void Main(string[] args)
         {
+            while (true) // 循环，直到用户选择退出
+            {
+                GetUserInfo();
+                Console.WriteLine("是否继续？(Y/N)");
+                string continueInput = Console.ReadLine();
+
+                if (continueInput.ToLower() != "y") // 如果用户输入不是 'y'，则退出循环
+                {
+                    break;
+                }
+                Console.ReadKey();
+            }
+             
+            
+        }
+
+        public static void Test()
+        {
+            Console.WriteLine();
+        }
+
+        public static void GetUserInfo()
+        {
             Console.WriteLine("请输入你的姓名：");
             string name = Console.ReadLine();
-            bool isZhangsan = name == "张三";
-            Console.WriteLine(isZhangsan);
-            if(name == "zhangsan")
-            {
-                name = "法外狂赌" + name;
-            }
 
             Console.WriteLine("请输入你的年龄：");
             string age = Console.ReadLine();
 
             Console.WriteLine("请输入你的爱好：");
             string hobby = Console.ReadLine();
-            
-            //重新赋值
-        /*  name = "lisi";
-            age = "666";
-            hobby = "read book";*/
 
             Console.WriteLine("");
             Console.WriteLine("");
@@ -37,7 +49,6 @@ namespace HelloWorldCS
             Console.WriteLine("你的名字是：" + name);
             Console.WriteLine("请输入你的年龄：" + age);
             Console.WriteLine("请输入你的爱好：" + hobby);
-            Console.ReadKey();
         }
     }
 }
