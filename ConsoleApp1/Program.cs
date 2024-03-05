@@ -16,6 +16,9 @@ namespace HelloWorldCS
             int n = 100;
             int m = 200;
             var sum = n + m;
+            bool d = false;
+
+            Console.WriteLine(d);
             Console.WriteLine(n);
             Console.WriteLine(m);
             Console.WriteLine(sum);
