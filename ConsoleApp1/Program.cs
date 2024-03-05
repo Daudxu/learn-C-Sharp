@@ -27,9 +27,10 @@ namespace HelloWorldCS
             return ++n;
         }
 
-        public static void ceshi()
+        public static void Ceshi()
         {
             string a = "anbc";
+            Console.WriteLine(a);
 
         }
 

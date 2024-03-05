@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lY5qqsWd6/NZuzPKWbO6YgTV5oKesTtGS6I9mrU0Iiy31LERAgNQ7ABdvY0HTUjHAkKyh67p6m8JjoCR7/XAKg==",
+  "dgSpecHash": "GNpoDbCO6tu++D9GxJadclSRO7DiMvubibqHWstFYJ8tcl48D1vELi0lFIjP68hT1Y6arAFDphsk3XbXAuKdrA==",
   "success": true,
-  "projectFilePath": "D:\\testWork\\test01\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+  "projectFilePath": "D:\\testWork\\learn-C-Sharp\\ConsoleApp1\\ConsoleApp1.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
