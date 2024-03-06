@@ -11,6 +11,8 @@ namespace HelloWorldCS
         public static int _number = 0;
         static void Main(string[] args)
         {
+            Test();
+
             while (true) // 循环，直到用户选择退出
             {
                 GetUserInfo();
@@ -23,13 +25,17 @@ namespace HelloWorldCS
                 }
                 Console.ReadKey();
             }
-             
-            
+
+
         }
 
         public static void Test()
         {
-            Console.WriteLine();
+            for(int i = 0; i<10; i++)
+            {
+                Console.WriteLine(i);
+            }
+            
         }
 
         public static void GetUserInfo()
