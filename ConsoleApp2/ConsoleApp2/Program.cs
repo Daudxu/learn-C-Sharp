@@ -31,9 +31,21 @@ namespace HelloWorldCS
 
         public static void Test()
         {
-            for(int i = 0; i<10; i++)
+    /*        for(int i = 0; i<10; i++)
             {
                 Console.WriteLine(i);
+            }*/
+            Console.WriteLine("请输入一个数字：");
+            string str = Console.ReadLine();
+            int age = 0;
+            try
+            {
+                age = int.Parse(str);
+
+            }catch(Exception e)
+            {
+                Console.WriteLine("报错了："+ e);
+                return;
             }
             
         }
