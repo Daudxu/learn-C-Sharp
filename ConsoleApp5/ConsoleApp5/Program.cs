@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ConsoleApp5;
+using ConsoleApp6;
+using System;
 
 namespace MyApp // Note: actual namespace depends on the project name.
 {
@@ -17,29 +19,11 @@ namespace MyApp // Note: actual namespace depends on the project name.
             Console.WriteLine("年龄："+ PersonObj.Age);
             Console.WriteLine("爱好：" + Person.hobby);
             Person.GetUserInfo();
-
+            ShowInfo.ShpwHeroInfo(PersonObj);
             Console.ReadKey();
         }
 
-        static void GetUserInfo()
-        {
-
-        }
     }
 
-    class Person
-    {
-        public string Name { get; set; }
-
-        public string Sex { get; set; }
-
-        public int Age { get; set; }
-
-        public static string hobby = "book";
-
-        public static void GetUserInfo()
-        {
-            Console.WriteLine("hobby");
-        }
-    }
+  
 }
