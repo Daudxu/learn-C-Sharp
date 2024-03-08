@@ -20,5 +20,6 @@ namespace ConsoleApp6
         {
             Console.WriteLine("hobby");
         }
+
     }
 }
